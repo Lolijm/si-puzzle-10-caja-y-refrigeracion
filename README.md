@@ -41,7 +41,7 @@ Lo habitual es que el aire fresco entre por el frontal y la parte inferior, mien
 Para elegir una refrigeración hay que tener en cuenta la potencia que puede retirar, la temperatura que alcanza el procesador y el ruido que produce.
 
 - **TDP (W):** potencia térmica de referencia indicada por el fabricante de la CPU.
-- **PBT y MTP (W):** indican la potencia base sostenida y la potencia máxima en turbo.
+- **PBP y MTP (W):** indican la potencia base sostenida y la potencia máxima en turbo.
 - **PPT (W):** límite real de potencia del procesador. Se puede consultar en la BIOS o en Ryzen Master.
 - **Temperatura de la CPU (ºC):** indica el estado térmico del procesador y se mide mediante sensores internos.
 - **Resistencia térmica (ºC/W):** indica cuántos grados sube el chip por cada vatio disipado. Cuanto menor sea, mejor.
@@ -97,7 +97,7 @@ Para elegir una refrigeración hay que tener en cuenta la potencia que puede ret
 - Intel: LGA1851 y LGA1700.
 
 **Ventiladores:**
-- Modelo: ARCTIC P14 PWM A-RGB.
+- Modelo: ARCTIC P12 PWM A-RGB.
 - Cantidad: 3.
 - Velocidad: 200–2000 RPM.
 - Dimensiones: 120 x 120 x 25 mm.

@@ -39,13 +39,13 @@ El calor viaja del chip al aire de la habitación en cuatro pasos:
 3. **Convección forzada:** los ventiladores empujan aire por las aletas o por el radiador, y ese aire se lleva el calor.
 4. **Expulsión:** el aire caliente tiene que salir de la caja. Si se queda dentro, sube la temperatura de todo lo demás, incluido el aire que entra al disipador.
 
-Los dos caminos, por aire y por líquido, acaban en el mismo sitio: el aire de la caja. El eslabón más débil de la cadena (mal contacto, poco flujo o poca salida de aire) marca la temperatura final.
+Los dos caminos, por aire y por líquido, acaban en el mismo sitio. 
 
 ### Flujo de aire dentro de una caja de PC
 ![Imagen de la refrigeracion mediante el flujo del aire](img/aire.jpeg)
 ![Imagen sobre el flujo de aire](img/liquida.jpeg)
 
-Flujo de aire en la caja: el aire frío (azul) entra por los ventiladores frontales y el ventilador inferior de la fuente de alimentación (PSU). El aire caliente (rojo) sale por el ventilador trasero y por las rejillas superiores.
+El aire frío entra por los ventiladores frontales y el ventilador inferior de la fuente de alimentación. El aire caliente sale por el ventilador trasero y por las rejillas superiores.
 
 
 ### Características, unidades y cómo se miden
@@ -87,7 +87,7 @@ La mayoría de los problemas de refrigeración no son piezas rotas, sino mal con
 
 | Síntoma | Causa más probable | Cómo se comprueba o se evita |
 |---|---|---|
-| La CPU salta a 90 °C o más en segundos de carga | Mal contacto: film de plástico sin retirar, soporte mal apretado o montado al revés, o falta o exceso de pasta | Reinstalar con presión uniforme. En la Liquid Freezer III, un soporte AMD girado cubre solo la parte alta de la CPU |
+| La CPU salta a 90 °C o más en segundos de carga | Contacto: film de plástico sin retirar, soporte mal apretado o montado al revés, o falta o exceso de pasta | Reinstalar con presión uniforme. En la Liquid Freezer III, un soporte AMD girado cubre solo la parte alta de la CPU |
 | La temperatura sube despacio y se estabiliza muy alta | Poco flujo de aire: filtros con polvo, radiador atascado o caja sin salida de aire | Limpiar filtros y radiador, y comprobar que el aire entra y sale |
 | Temperaturas peores tras años de uso | Pasta térmica reseca | Quitar la vieja con alcohol isopropílico y aplicar pasta nueva |
 | Ventilador ruidoso o que no gira | Rodamiento desgastado, acumulación de polvo o cable rozando las aspas | Revisar el cable y limpiar; si hay vibración o chirrido, sustituirlo |
