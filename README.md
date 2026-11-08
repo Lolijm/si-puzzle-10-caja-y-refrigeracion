@@ -154,92 +154,93 @@ La mayoría de los problemas se deben a un mal contacto, conexiones incorrectas 
 - https://www.profesionalreview.com/2017/10/29/que-es-presion-positiva-y-negativa-de-aire-pc/amp/
 - https://www.corsair.com/lm/es/explorer/diy-builder/blogs/positive-pressure-vs-negative-pressure-which-is-best-for-a-gaming-pc/
 - https://www.guru3d.com/review/arctic-liquid-freezer-iii-360-argb-cooler-review/page-2/
-
+- https://cdn.noctua.at/media/Noctua_PWM_specifications_white_paper.pdf
 ### Uso de IA
 
 Hemos utilizado Claude como ayuda para buscar fuentes, proponer la estructura de los apartados y redactar un primer borrador. Después hemos revisado y corregido el contenido, eliminando partes innecesarias o demasiado complicadas.
 
 ## 8. Preguntas tipo test
 
-**1. ¿Qué función cumple la pasta térmica?**
+### 1. ¿Qué función cumple la pasta térmica?
 
 - A) Enfriar la CPU con líquidos.
 - B) Rellenar el hueco de aire entre CPU y disipador.
 - C) Eliminar los ventiladores.
 - D) Proteger la caja del polvo.
 
-**Respuesta correcta: B.
-Entre la CPU y el disipador quedan huecos microscópicos llenos de aire, y el aire conduce muy mal el calor. La pasta los rellena y mejora la transferencia. No enfría por sí sola (A), no sustituye a los ventiladores (C) y no tiene nada que ver con el polvo (D)**
+-Respuesta correcta: B.
+-Entre la CPU y el disipador quedan huecos microscópicos llenos de aire, y el aire conduce muy mal el calor. La pasta los rellena y mejora la transferencia. No enfría por sí sola (A), no sustituye a los ventiladores (C) y no tiene nada que ver con el polvo (D)**
 
-**2. ¿Qué indica el PPT?**
+### 2. ¿Qué indica el PPT?
 
 - A) Las RPM de la bomba.
 - B) La temperatura de la CPU.
 - C) El límite real de potencia del procesador.
 - D) La resistencia térmica.
 
-**Respuesta correcta: C.
-El PPT es el límite real de potencia del procesador, medido en W. Se ve en la BIOS o en Ryzen Master, el programa de AMD. La A confunde el PPT con el TDP (que sí es un dato de ficha), la B habla de RPM (que son del ventilador o la bomba) y la D describe la resistencia térmica (ºC/W).**
+-Respuesta correcta: C.
+-El PPT es el límite real de potencia del procesador, medido en W. Se ve en la BIOS o en Ryzen Master, el programa de AMD. La A confunde el PPT con el TDP (que sí es un dato de ficha), la B habla de RPM (que son del ventilador o la bomba) y la D describe la resistencia térmica (ºC/W).**
 
-**3. ¿Qué inconveniente tiene un disipador de aire?**
+### 3. ¿Qué inconveniente tiene un disipador de aire?
 
 - A) Tiene riesgo de fugas.
 - B) Necesita una bomba.
 - C) Es grande y puede chocar con la RAM.
 - D) Requiere mantenimiento constante.
 
-**Respuesta correcta: C.
-Su desventaja es el tamaño y el peso, que pueden provocar choques físicos con la RAM o con la tapa de la caja. La A es un problema de las AIO y de los circuitos custom, no del aire, que no lleva líquido. La B es falsa: el disipador de aire solo tiene el ventilador como pieza móvil y es muy duradero. La C es falsa porque no necesita mantenimiento constante ni metal líquido.**
+- Respuesta correcta: C.
+- Su desventaja es el tamaño y el peso, que pueden provocar choques físicos con la RAM o con la tapa de la caja. La A es un problema de las AIO y de los circuitos custom, no del aire, que no lleva líquido. La B es falsa: el disipador de aire solo tiene el ventilador como pieza móvil y es muy duradero. La C es falsa porque no necesita mantenimiento constante ni metal líquido.
 
-**4. ¿Qué parámetro es importante en un ventilador de radiador?**
+### 4. ¿Qué parámetro es importante en un ventilador de radiador?
 
 - A) La presión estática.
 - B) El color.
 - C) El tamaño de la caja.
 - D) La temperatura ambiente.
 
-**Respuesta correcta: A.
-Un radiador tiene muchas aletas muy juntas que ofrecen resistencia al paso del aire. Para empujar aire a través de ellas hace falta presión estática. El caudal importa más en espacios abiertos, como el flujo general de la caja. Por eso la A es justo el error que se señala en "errores al elegir". Las C y D no tienen que ver con el rendimiento en un radiador.
-**
+- Respuesta correcta: A.
+- Un radiador tiene muchas aletas muy juntas que ofrecen resistencia al paso del aire. Para empujar aire a través de ellas hace falta presión estática. El caudal importa más en espacios abiertos, como el flujo general de la caja. Por eso la A es justo el error que se señala en "errores al elegir". Las C y D no tienen que ver con el rendimiento en un radiador.
 
-**5. ¿Qué realiza el transporte en una AIO?**
+
+### 5. ¿Qué realiza el transporte en una AIO?
 
 - A) La bomba mueve el líquido hasta el radiador.
 - B) Los ventiladores expulsan el aire de la habitación.
 - C) El chip transmite el calor al disipador.
 - D) La caja elimina el polvo.
 
-**Respuesta correcta: A. 
-El paso 2 del funcionamiento es el transporte, y en una AIO lo hace la bomba moviendo el líquido hasta el radiador. La B corresponde a la expulsión (paso 4). La C describe los heatpipes de un disipador de aire, no una AIO. La D es la conducción (paso 1).**
+- Respuesta correcta: A. 
+- El paso 2 del funcionamiento es el transporte, y en una AIO lo hace la bomba moviendo el líquido hasta el radiador. La B corresponde a la expulsión (paso 4). La C describe los heatpipes de un disipador de aire, no una AIO. La D es la conducción (paso 1).**
 
-**6. Si la CPU llega a 90 ºC en segundos, ¿cuál puede ser la causa?**
+### 6. Si la CPU llega a 90 ºC en segundos, ¿cuál puede ser la causa?
 
 - A) Presión positiva.
 - B) Mal contacto entre CPU y disipador.
 - C) Polvo en los filtros.
 - D) Evaporación lenta del líquido.
 
-**Respuesta correcta: B.Una subida tan rápida indica que el calor no pasa del chip al disipador, es decir, falla la conducción. La A (poco flujo de aire) hace que la temperatura suba despacio y se estabilice alta. La B ocurre con los años, no en segundos. La D no es un problema: la presión positiva incluso reduce el polvo.
-**
+- Respuesta correcta: B.
+- Una subida tan rápida indica que el calor no pasa del chip al disipador, es decir, falla la conducción. La A (poco flujo de aire) hace que la temperatura suba despacio y se estabilice alta. La B ocurre con los años, no en segundos. La D no es un problema: la presión positiva incluso reduce el polvo.
 
-**7. ¿Qué velocidad alcanza la bomba del Arctic Liquid Freezer III 360?**
+
+### 7. ¿Qué velocidad alcanza la bomba del Arctic Liquid Freezer III 360?
 
 - A) 200–2000 RPM.
 - B) 400–2500 RPM.
 - C) 800–2800 RPM.
 - D) 3000 RPM fijas.
 
-**Respuesta correcta: C.
-Es el dato de la ficha técnica. La A corresponde a los ventiladores P14 (200–2000 RPM) y la B al ventilador VRM (400–2500 RPM). La D es falsa, porque la bomba es regulable por PWM.
-**
+- Respuesta correcta: C.
+- Es el dato de la ficha técnica. La A corresponde a los ventiladores P14 (200–2000 RPM) y la B al ventilador VRM (400–2500 RPM). La D es falsa, porque la bomba es regulable por PWM.
 
-**8. ¿Qué puede ocurrir al conectar 12 V al pin de control de un ventilador PWM?**
+
+### 8. ¿Qué puede ocurrir al conectar 12 V al pin de control de un ventilador PWM?
 
 - A) Aumenta el caudal de forma segura.
 - B) Se estropea inmediatamente.
 - C) Reduce el ruido.
 - D) Mejora la refrigeración.
 
-**Respuesta correcta: B.
-El pin de control del PWM solo admite una señal de control de baja tensión. Meterle 12 V o 24 V daña el ventilador al instante, tal como advierte Noctua en su documento técnico. Las otras opciones son inventadas: ni mejora el rendimiento, ni la BIOS cambia de modo, ni cambia el color de la luz.
-**
+- Respuesta correcta: B.
+- El pin de control del PWM solo admite una señal de control de baja tensión. Meterle 12 V o 24 V daña el ventilador al instante, tal como advierte Noctua en su documento técnico. Las otras opciones son inventadas: ni mejora el rendimiento, ni la BIOS cambia de modo, ni cambia el color de la luz.
+
