@@ -16,7 +16,6 @@ El ordenador genera mucho calor, sobre todo en la CPU, la GPU y las memorias, y 
 
 ![Disipador de aire](img/disipador.jpg)
 
-*Figura 1: disipador de aire; el calor sube por los tubos hasta las aletas.*
 
 ## 2. Cómo funciona
 
@@ -32,8 +31,6 @@ El eslabón más débil (mal contacto, poco aire) marca la temperatura final.
 **Flujo de aire:** entra aire fresco por el frontal y la parte baja y sale por detrás y arriba [3][4]. Si entra más del que sale hay presión positiva (menos polvo); si no, negativa [3][5].
 
 ![Flujo de aire en la caja](img/aire.jpeg)
-
-*Figura 2: el aire frío entra por delante y abajo y sale por detrás y arriba.*
 
 ## 3. Características y unidades
 
@@ -62,7 +59,6 @@ El eslabón más débil (mal contacto, poco aire) marca la temperatura final.
 
 ![Refrigeración líquida AIO](img/liquida.jpeg)
 
-*Figura 3: AIO con placa fría, tubos y radiador; los ventiladores enfrían el líquido.*
 
 **Evolución:** del disipador de aluminio pasivo se pasó al ventilador con cobre y *heatpipes*, y después a las AIO con radiadores de 120 a 420 mm.
 
@@ -71,8 +67,6 @@ El eslabón más débil (mal contacto, poco aire) marca la temperatura final.
 ## 5. Modelo comercial real: Arctic Liquid Freezer III 360 A-RGB
 
 ![Arctic Liquid Freezer III 360 A-RGB](img/arctic.jpeg)
-
-*Figura 4: AIO de 360 mm con tres ventiladores y la bomba con el ventilador VRM encima.*
 
 Según Guru3D [9], mejora a la serie anterior con bomba rediseñada y un ventilador sobre la bomba que enfría los VRM y la memoria. La elegimos por ser compatible con los sockets actuales y tener ficha pública.
 
