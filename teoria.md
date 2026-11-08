@@ -41,6 +41,13 @@ El calor viaja del chip al aire de la habitación en cuatro pasos:
 
 Los dos caminos, por aire y por líquido, acaban en el mismo sitio: el aire de la caja. El eslabón más débil de la cadena (mal contacto, poco flujo o poca salida de aire) marca la temperatura final.
 
+###Flujo de aire dentro de una caja de PC
+![Imagen de la refrigeracion mediante el flujo del aire](img/aire.jpeg)
+![Imagen sobre el flujo de aire](img/liquida.jpeg)
+
+Flujo de aire en la caja: el aire frío (azul) entra por los ventiladores frontales y el ventilador inferior de la fuente de alimentación (PSU). El aire caliente (rojo) sale por el ventilador trasero y por las rejillas superiores.
+
+
 ### Características, unidades y cómo se miden
 
 La refrigeración se compra por tres cosas: cuántos vatios es capaz de retirar, cuántos grados sube el chip por encima del ambiente y cuánto ruido hace al conseguirlo.
@@ -57,6 +64,8 @@ La refrigeración se compra por tres cosas: cuántos vatios es capaz de retirar,
 | Dimensiones | mm | Altura del disipador y tamaño y grosor del radiador; decide si cabe en la caja | Con una regla o con la ficha del fabricante, y se compara con las medidas máximas de la caja |
 
 ### Modelo comercial: Arctic Liquid Freezer III 360 A-RGB
+
+![Imagen del modelo comercial Arctic Liquid Freezer III 360 A-RGB](img/arctic.jpeg)
 
 | Dato | Valor |
 |---|---|
