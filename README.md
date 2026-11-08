@@ -168,7 +168,8 @@ Hemos utilizado Claude como ayuda para buscar fuentes, proponer la estructura de
 - C) Eliminar los ventiladores.
 - D) Proteger la caja del polvo.
 
-**Respuesta correcta: B.**
+**Respuesta correcta: B.
+Entre la CPU y el disipador quedan huecos microscópicos llenos de aire, y el aire conduce muy mal el calor. La pasta los rellena y mejora la transferencia. No enfría por sí sola (A), no sustituye a los ventiladores (C) y no tiene nada que ver con el polvo (D)**
 
 **2. ¿Qué indica el PPT?**
 
@@ -177,7 +178,8 @@ Hemos utilizado Claude como ayuda para buscar fuentes, proponer la estructura de
 - C) El límite real de potencia del procesador.
 - D) La resistencia térmica.
 
-**Respuesta correcta: C.**
+**Respuesta correcta: C.
+El PPT es el límite real de potencia del procesador, medido en W. Se ve en la BIOS o en Ryzen Master, el programa de AMD. La A confunde el PPT con el TDP (que sí es un dato de ficha), la B habla de RPM (que son del ventilador o la bomba) y la D describe la resistencia térmica (ºC/W).**
 
 **3. ¿Qué inconveniente tiene un disipador de aire?**
 
@@ -186,7 +188,8 @@ Hemos utilizado Claude como ayuda para buscar fuentes, proponer la estructura de
 - C) Es grande y puede chocar con la RAM.
 - D) Requiere mantenimiento constante.
 
-**Respuesta correcta: C.**
+**Respuesta correcta: C.
+Su desventaja es el tamaño y el peso, que pueden provocar choques físicos con la RAM o con la tapa de la caja. La A es un problema de las AIO y de los circuitos custom, no del aire, que no lleva líquido. La B es falsa: el disipador de aire solo tiene el ventilador como pieza móvil y es muy duradero. La C es falsa porque no necesita mantenimiento constante ni metal líquido.**
 
 **4. ¿Qué parámetro es importante en un ventilador de radiador?**
 
@@ -195,7 +198,9 @@ Hemos utilizado Claude como ayuda para buscar fuentes, proponer la estructura de
 - C) El tamaño de la caja.
 - D) La temperatura ambiente.
 
-**Respuesta correcta: A.**
+**Respuesta correcta: A.
+Un radiador tiene muchas aletas muy juntas que ofrecen resistencia al paso del aire. Para empujar aire a través de ellas hace falta presión estática. El caudal importa más en espacios abiertos, como el flujo general de la caja. Por eso la A es justo el error que se señala en "errores al elegir". Las C y D no tienen que ver con el rendimiento en un radiador.
+**
 
 **5. ¿Qué realiza el transporte en una AIO?**
 
@@ -204,7 +209,8 @@ Hemos utilizado Claude como ayuda para buscar fuentes, proponer la estructura de
 - C) El chip transmite el calor al disipador.
 - D) La caja elimina el polvo.
 
-**Respuesta correcta: A.**
+**Respuesta correcta: A. 
+El paso 2 del funcionamiento es el transporte, y en una AIO lo hace la bomba moviendo el líquido hasta el radiador. La B corresponde a la expulsión (paso 4). La C describe los heatpipes de un disipador de aire, no una AIO. La D es la conducción (paso 1).**
 
 **6. Si la CPU llega a 90 ºC en segundos, ¿cuál puede ser la causa?**
 
@@ -213,7 +219,8 @@ Hemos utilizado Claude como ayuda para buscar fuentes, proponer la estructura de
 - C) Polvo en los filtros.
 - D) Evaporación lenta del líquido.
 
-**Respuesta correcta: B.**
+**Respuesta correcta: B.Una subida tan rápida indica que el calor no pasa del chip al disipador, es decir, falla la conducción. La A (poco flujo de aire) hace que la temperatura suba despacio y se estabilice alta. La B ocurre con los años, no en segundos. La D no es un problema: la presión positiva incluso reduce el polvo.
+**
 
 **7. ¿Qué velocidad alcanza la bomba del Arctic Liquid Freezer III 360?**
 
@@ -222,7 +229,9 @@ Hemos utilizado Claude como ayuda para buscar fuentes, proponer la estructura de
 - C) 800–2800 RPM.
 - D) 3000 RPM fijas.
 
-**Respuesta correcta: C.**
+**Respuesta correcta: C.
+Es el dato de la ficha técnica. La A corresponde a los ventiladores P14 (200–2000 RPM) y la B al ventilador VRM (400–2500 RPM). La D es falsa, porque la bomba es regulable por PWM.
+**
 
 **8. ¿Qué puede ocurrir al conectar 12 V al pin de control de un ventilador PWM?**
 
@@ -231,4 +240,6 @@ Hemos utilizado Claude como ayuda para buscar fuentes, proponer la estructura de
 - C) Reduce el ruido.
 - D) Mejora la refrigeración.
 
-**Respuesta correcta: B.**
+**Respuesta correcta: B.
+El pin de control del PWM solo admite una señal de control de baja tensión. Meterle 12 V o 24 V daña el ventilador al instante, tal como advierte Noctua en su documento técnico. Las otras opciones son inventadas: ni mejora el rendimiento, ni la BIOS cambia de modo, ni cambia el color de la luz.
+**
