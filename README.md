@@ -67,7 +67,7 @@ Para elegir una refrigeración hay que tener en cuenta la potencia que puede ret
 
 **Inconvenientes:** es más cara que la refrigeración por aire, necesita espacio para el radiador y la bomba puede fallar.
 
-![Refrigeración líquida AIO](img/liquida.jpg)
+![Refrigeración líquida AIO](img/liquida.jpeg)
 
 ### Refrigeración pasiva
 
@@ -87,7 +87,7 @@ Para elegir una refrigeración hay que tener en cuenta la potencia que puede ret
 
 ## 5. Modelo comercial real: Arctic Liquid Freezer III 360 A-RGB
 
-![Arctic Liquid Freezer III 360 A-RGB](img/arctic.jpg)
+![Arctic Liquid Freezer III 360 A-RGB](img/arctic.jpeg)
 
 **Fabricante:** Arctic  
 **Modelo:** Liquid Freezer III 360 A-RGB.
