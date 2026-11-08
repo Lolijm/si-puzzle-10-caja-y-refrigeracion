@@ -1,3 +1,4 @@
+
 # Teoría · Pieza 10: Caja y refrigeración
 
 **Grupo:** Sheila Muñoz · Loli Joya
@@ -39,46 +40,28 @@ El calor viaja del chip al aire de la habitación en cuatro pasos:
 3. **Convección forzada:** los ventiladores empujan aire por las aletas o por el radiador, y ese aire se lleva el calor.
 4. **Expulsión:** el aire caliente tiene que salir de la caja. Si se queda dentro, sube la temperatura de todo lo demás, incluido el aire que entra al disipador.
 
-Los dos caminos, por aire y por líquido, acaban en el mismo sitio: el aire de la caja. El eslabón más débil de la cadena (contacto, poco flujo o poca salida de aire) marca la temperatura final.
+Los dos caminos, por aire y por líquido, acaban en el mismo sitio: el aire de la caja. El eslabón más débil de la cadena (mal contacto, poco flujo o poca salida de aire) marca la temperatura final.
+
+Los dos caminos, por aire y por líquido, acaban en el mismo sitio.
+
+### Flujo de aire dentro de una caja de PC
+
+![Imagen de la refrigeracion mediante el flujo del aire](img/aire.jpeg)
+
+![Imagen sobre el flujo de aire](img/liquida.jpeg)
+
+Flujo de aire en la caja: el aire frío (azul) entra por los ventiladores frontales y el ventilador inferior de la fuente de alimentación (PSU). El aire caliente (rojo) sale por el ventilador trasero y por las rejillas superiores.
+
+El aire frío entra por los ventiladores frontales y el ventilador inferior de la fuente de alimentación. El aire caliente sale por el ventilador trasero y por las rejillas superiores.
 
 ### Características, unidades y cómo se miden
 
-La refrigeración se compra por tres cosas: cuántos vatios es capaz de retirar, cuántos grados sube el chip por encima del ambiente y cuánto ruido hace al conseguirlo.
-
-| Magnitud | Unidad | Qué indica | Cómo se mide |
-|---|---|---|---|
-| TDP (Thermal Design Power) | W | Potencia térmica de referencia con la que el fabricante de CPU pide dimensionar el disipador | No se mide: es un dato que da el fabricante en la ficha |
-| PBP y MTP | W | Potencia base sostenida y potencia máxima en turbo | Tampoco se miden: los da Intel en la ficha |
-| PPT | W | Límite real de potencia del paquete | Se consulta en la BIOS o en Ryzen Master de AMD |
-| Temperatura de la CPU | °C | Estado térmico actual; el fabricante fija un máximo | La miden sensores dentro del propio chip y se lee en la BIOS |
-| Resistencia térmica | °C/W | Grados que sube el chip por cada vatio disipado; menos es mejor | No se lee: se calcula como (temperatura del chip − temperatura ambiente) ÷ potencia en vatios |
-| Velocidad de giro | RPM | Vueltas por minuto del ventilador | El ventilador envía una señal a la placa base, que cuenta las vueltas; se ve en la BIOS o en un programa de control de ventiladores |
-| Ciclo de trabajo PWM | % | Fracción del tiempo que la señal está activa; fija la velocidad del ventilador | Lo genera la placa base y se ajusta desde la BIOS o un programa; a mayor porcentaje, más rápido gira |
-| Dimensiones | mm | Altura del disipador y tamaño y grosor del radiador; decide si cabe en la caja | Con una regla o con la ficha del fabricante, y se compara con las medidas máximas de la caja |
-
-### Modelo comercial: Arctic Liquid Freezer III 360 A-RGB
-
-| Dato | Valor |
-|---|---|
-| Fabricante | Arctic |
-| Modelo | Liquid Freezer III 360 A-RGB |
-| Sockets compatibles | AMD: AM5 y AM4. Intel: LGA1851 y LGA1700 |
-| Ventilador | 3 × Arctic P12 PWM A-RGB de 120 × 25 mm |
-| Velocidad del ventilador | 200 a 2000 RPM |
-| Caudal de aire | 48,82 CFM |
-| Presión estática | 1,85 mmH₂O |
-| Ventilador de VRM | 400 a 2500 RPM (controlado por PWM) |
-| Bomba | 800 a 2800 RPM (regulable por PWM) |
-| Consumo de la bomba | Hasta 4,2 W (0,35 A × 12 V) |
-| Radiador | 398 × 120 × 38 mm |
-
-### Averías típicas
-
-La mayoría de los problemas de refrigeración no son piezas rotas, sino mal contacto, mala conexión o mal flujo de aire. Antes de cambiar nada conviene mirar en la BIOS la temperatura y las RPM de ventiladores y bomba.
+## Averías típicas
 
 | Síntoma | Causa más probable | Cómo se comprueba o se evita |
 |---|---|---|
 | La CPU salta a 90 °C o más en segundos de carga | Mal contacto: film de plástico sin retirar, soporte mal apretado o montado al revés, o falta o exceso de pasta | Reinstalar con presión uniforme. En la Liquid Freezer III, un soporte AMD girado cubre solo la parte alta de la CPU |
+| La CPU salta a 90 °C o más en segundos de carga | Contacto: film de plástico sin retirar, soporte mal apretado o montado al revés, o falta o exceso de pasta | Reinstalar con presión uniforme. En la Liquid Freezer III, un soporte AMD girado cubre solo la parte alta de la CPU |
 | La temperatura sube despacio y se estabiliza muy alta | Poco flujo de aire: filtros con polvo, radiador atascado o caja sin salida de aire | Limpiar filtros y radiador, y comprobar que el aire entra y sale |
 | Temperaturas peores tras años de uso | Pasta térmica reseca | Quitar la vieja con alcohol isopropílico y aplicar pasta nueva |
 | Ventilador ruidoso o que no gira | Rodamiento desgastado, acumulación de polvo o cable rozando las aspas | Revisar el cable y limpiar; si hay vibración o chirrido, sustituirlo |
@@ -107,60 +90,65 @@ La mayoría de los problemas de refrigeración no son piezas rotas, sino mal con
 ## Preguntas tipo test (8)
 
 1. ¿Qué función cumple la pasta térmica?
-   - a) Enfriar de forma activa la CPU con líquidos
-   - b) Rellenar el hueco de aire entre CPU y disiapdor; basta una capa fina como un grano de arroz.  ← correcta
-   - c) Eliminar la necesidad de ventiladores
-   - d) Proteger la caja del polvo
-   - Explicación: Entre la CPU y el disipador quedan huecos microscópicos llenos de aire, y el aire conduce muy mal el calor. La pasta los rellena y mejora la transferencia. No enfría por sí sola (A), no sustituye a los ventiladores (C) y no tiene nada que ver con el polvo (D)
+
+   - a) Enfriar la CPU con líquidos.
+   - b) Rellenar el hueco de aire entre CPU y disipador. ← correcta
+   - c) Eliminar los ventiladores.
+   - d) Proteger la caja del polvo.
+   - **Explicación:** Entre la CPU y el disipador quedan huecos microscópicos llenos de aire, y el aire conduce muy mal el calor. La pasta los rellena y mejora la transferencia. No enfría por sí sola (A), no sustituye a los ventiladores (C) y no tiene nada que ver con el polvo (D).
 
 2. ¿Qué indica el PPT?
-    - a) Un dato fijo de Intel que no se puede modificar.
-    - b) Las RPM de la bomba.
-    - c) El límite real de potencia del paquete; se consulta en la BIOS o en Ryzen Master. s microscópicos llenos de aire, y el aire conduce muy mal el calor. La pasta los rellena y mejora la transferencia. <- Correcta
-    - d) Los grados que sube el chip por vatio.
-    - Explicación: El PPT es el límite real de potencia del procesador, medido en W. Se ve en la BIOS o en Ryzen Master, el programa de AMD. La A confunde el PPT con el TDP (que sí es un dato de ficha), la B habla de RPM (que son del ventilador o la bomba) y la D describe la resistencia térmica (ºC/W).
 
-3. ¿Qué inconveniente tiene un disipador de aire frente a una AIO?
+   - a) Las RPM de la bomba.
+   - b) La temperatura de la CPU.
+   - c) El límite real de potencia del procesador. ← Correcta
+   - d) La resistencia térmica.
+   - **Explicación:** El PPT (Package Power Tracking) es el límite real de potencia del procesador, en W, y se ve en la BIOS o en Ryzen Master, el programa de AMD. La A habla de RPM, que son de los ventiladores y la bomba. La B es la temperatura, que se mide en °C. La D es la resistencia térmica (°C/W).
 
-    - a) Riesgo elevado de fugas.
-    - b) Poca durabilidad por tener muchas piezas móviles.
-    - c) Requiere mantenimiento constante y metal líquido. <- Correcta
-    - d) Es grande y pesado y puede chocar con la RAM o la tapa de la caja.
-    - Explicación: Su desventaja es el tamaño y el peso, que pueden provocar choques físicos con la RAM o con la tapa de la caja. La A es un problema de las AIO y de los circuitos custom, no del aire, que no lleva líquido. La B es falsa: el disipador de aire solo tiene el ventilador como pieza móvil y es muy duradero. La C es falsa porque no necesita mantenimiento constante ni metal líquido.
+3. ¿Qué inconveniente tiene un disipador de aire?
 
-4. ¿En qué parámetro hay que fijarse para un ventilador de radiador?
-    - a) Caudal de aire en lugar de presión estática. <- Correcta
-    - b) Presión estática en lugar de caudal de aire.
-    - c) Que sea solo de 3 pines.
-    - d) Que las aspas midan 40 mm.
-    - Explicación: Un radiador tiene muchas aletas muy juntas que ofrecen resistencia al paso del aire. Para empujar aire a través de ellas hace falta presión estática. El caudal importa más en espacios abiertos, como el flujo general de la caja. Por eso la A es justo el error que se señala en "errores al elegir". Las C y D no tienen que ver con el rendimiento en un radiador. 
+   - a) Tiene riesgo de fugas.
+   - b) Necesita una bomba.
+   - c) Es grande y puede chocar con la RAM. ← Correcta
+   - d) Requiere mantenimiento constante.
+   - **Explicación:** Su desventaja es el tamaño y el peso, que pueden chocar con la RAM o con la tapa de la caja. La A es un problema de las AIO y de los circuitos a medida, porque el aire no lleva líquido. La B es falsa: el disipador de aire no lleva bomba, solo ventilador. La D es falsa porque no necesita mantenimiento constante.
 
-5. ¿En qué consiste el "Transporte" en una AIO?
+4. ¿Qué parámetro es importante en un ventilador de radiador?
 
-    - a) La bomba hace circular el líquido caliente desde la placa fría hasta el radiador. <- Correcta
-    - b) Los ventiladores expulsan el aire fuera de la habitación.
-    - c) El líquido se evapora en las aletas.
-    - d) El chip pasa el calor a la placa fría por conducción.
-    - Explicación: El paso 2 del funcionamiento es el transporte, y en una AIO lo hace la bomba moviendo el líquido hasta el radiador. La B corresponde a la expulsión (paso 4). La C describe los heatpipes de un disipador de aire, no una AIO. La D es la conducción (paso 1).
+   - a) La presión estática. ← Correcta
+   - b) El color.
+   - c) El tamaño de la caja.
+   - d) La temperatura ambiente.
+   - **Explicación:** Un radiador tiene muchas aletas muy juntas que frenan el aire, y para empujarlo a través hace falta presión estática. El caudal importa más en espacios abiertos, y elegir por caudal es justo el error que se señala en "errores al elegir". La B, la C y la D no influyen en el rendimiento del radiador.
 
-6. Si la CPU llega a 90 ºC en segundos de carga, ¿cuál es la causa más probable?
-    - a) Filtros ligeramente sucios.
-    - b) Evaporación lenta del líquido. <- Correcta
-    - c) Mal contacto: film sin quitar, soporte mal apretado o pasta mal aplicada.
-    - d) Presión de aire positiva.
-    - Explicación: .Una subida tan rápida indica que el calor no pasa del chip al disipador, es decir, falla la conducción. La A (poco flujo de aire) hace que la temperatura suba despacio y se estabilice alta. La B ocurre con los años, no en segundos. La D no es un problema: la presión positiva incluso reduce el polvo.
+5. ¿Qué realiza el transporte en una AIO?
 
-7. ¿Qué rango de giro tiene la bomba del Liquid Freezer III 360?
-    - a) 200-2000 RPM.
-    - b) 400-2500 RPM.
-    - c) 800-2800 (regulable por PWM).
-    - d) Fija a 3000 RPM.
-    - Explicación: ...
+   - a) La bomba mueve el líquido hasta el radiador. ← Correcta
+   - b) Los ventiladores expulsan el aire de la habitación.
+   - c) El chip transmite el calor al disipador.
+   - d) La caja elimina el polvo.
+   - **Explicación:** El paso 2 del funcionamiento es el transporte, y en una AIO lo hace la bomba moviendo el líquido hasta el radiador. La B es la expulsión (paso 4). La C es la conducción (paso 1). La D no es un paso del funcionamiento.
 
-8. Según Noctua, ¿qué pasa si se conectan 12 V al pin de control de un ventilador PWM?
-    - a) Aumenta su caudal un 50% de forma segura.
-    - b) Se estropea de inmediato.
-    - c) La BIOS lo pasa a modo DC.
-    - d) La luz A-RGB cambia de color.
-    - Explicación: ...
+6. Si la CPU llega a 90 ºC en segundos, ¿cuál puede ser la causa?
 
+   - a) Presión positiva.
+   - b) Mal contacto entre CPU y disipador. ← Correcta
+   - c) Polvo en los filtros.
+   - d) Evaporación lenta del líquido.
+   - **Explicación:** Una subida tan rápida indica que el calor no pasa del chip al disipador, es decir, falla la conducción. La A no es una causa: la presión positiva incluso reduce el polvo. La C (poco flujo de aire) hace que la temperatura suba despacio y se estabilice alta. La D ocurre con los años, no en segundos.
+
+7. ¿Qué velocidad alcanza la bomba del Arctic Liquid Freezer III 360?
+
+   - a) 200-2000 RPM.
+   - b) 400-2500 RPM.
+   - c) 800-2800 RPM. ← Correcta
+   - d) 3000 RPM fijas.
+   - **Explicación:** Es el dato de la ficha técnica. La A corresponde a los ventiladores P12 (200–2000 RPM) y la B al ventilador de VRM (400–2500 RPM). La D es falsa porque la bomba es regulable por PWM.
+
+8. ¿Qué puede ocurrir al conectar 12 V al pin de control de un ventilador PWM?
+
+   - a) Aumenta el caudal de forma segura.
+   - b) Se estropea inmediatamente. ← Correcta
+   - c) Reduce el ruido.
+   - d) Mejora la refrigeración.
+   - **Explicación:** El pin de control del PWM solo admite una señal de baja tensión. Meterle 12 V o 24 V daña el ventilador al instante, como advierte Noctua en su documento técnico. Las otras opciones son falsas: no aumenta el caudal, ni reduce el ruido, ni mejora la refrigeración.
