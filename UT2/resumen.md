@@ -100,3 +100,13 @@
     - **Explicación:** La bomba debe girar siempre para mover el líquido. Si la placa la frena porque hace poco calor, el calor no se transporta cuando hace falta.
 
 ## Uso de IA
+
+- Se utilizó la IA para poder resumir mejor la pieza con los md README y teoría, nosotras lo hemos revisado y cambiado algunas partes.
+
+## Fuentes
+
+- https://www.guru3d.com/review/arctic-liquid-freezer-iii-360-argb-cooler-review/page-2/
+
+- https://www.corsair.com/lm/es/explorer/diy-builder/blogs/positive-pressure-vs-negative-pressure-which-is-best-for-a-gaming-pc/
+
+- https://www.profesionalreview.com/2024/08/25/ventiladores-3-pines-vs-4-pines/amp/
