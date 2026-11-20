@@ -1,0 +1,475 @@
+# SI · UT2 — Ficha de taller: montaje y revisión de un ordenador
+
+## 1. Orden de trabajo
+
+**Fecha:** _____16/11/2026_______________  **Puesto:** ____________________  **Equipo / etiqueta:** ____________________
+
+
+**Integrantes del grupo (2 o 3):**
+
+1. Nombre y apellidos: ________________Sheila Muñoz Matias___________________
+2. Nombre y apellidos: ________________Loli Joya Martin______________________
+3. Nombre y apellidos (si procede): __________________________________
+
+> **Equipo A:** ordenador de prácticas utilizado para el montaje o la revisión. Puede estar averiado; no se exige que arranque.
+>
+> **Equipo B:** vuestro propio ordenador funcional. Se utiliza a partir del apartado 9 para analizar el arranque y el hardware desde Linux.
+
+## 2. Recepción e inspección visual · Equipo A
+
+## Fotografías de la caja
+
+![Caja](fotos/caja.jpeg)
+![Caja abierta](fotos/caja1.jpeg)
+![Otra vista de la caja](fotos/caja3.jpeg)
+
+
+
+**Trabajo previsto:**
+
+- [X] Desmontaje y montaje
+- [X] Revisión / diagnóstico
+- [ ] Otro: ___________________________________
+
+**Estado al recibirlo:**
+
+- [ ] Completo
+- [X] Faltan piezas
+- [ ] Sucio
+- [ ] Daños visibles
+
+**Síntomas conocidos, piezas ausentes o daños observados:**
+
+____________Faltaba el embellecedor____________________________________
+
+_________La fuente de alimentacion solamente tenia un tornillo de fijacion_________
+
+## 3. Seguridad y preparación · Equipo A
+
+## Fotografías de la preparación
+
+![Fotografías iniciales](fotos/fotosiniciales.jpeg)
+![Mesa de trabajo](fotos/MESA.jpeg)
+
+- [X] Equipo desconectado de la corriente y de los periféricos.
+- [ ] Botón de encendido pulsado tras desconectar.
+- [X] Superficie despejada y piezas organizadas.
+- [X] Estado inicial y conexiones fotografiados.
+
+**Herramientas utilizadas:**
+ - Destornillador de estrella
+ - Destornillador plano
+ - Brocha
+ - Pasta termica
+ - Alcohol isopropilico
+
+ 
+
+**No abráis la fuente ni forcéis piezas.** Ante daños o baterías, avisad al profesor.
+
+## 4. Componentes identificados · Equipo A
+
+Anotad lo que podáis verificar. Si no se distingue, escribid «no identificado».
+
+## Fotografías de los componentes
+
+### Placa base
+
+![Placa base](fotos/placa.jpeg)
+![Placa base 2](fotos/placa2.jpeg)
+![Placa base 4](fotos/placa4.jpeg)
+
+### Procesador
+
+![Socket de la CPU](fotos/cou.jpeg)
+![Socket del procesador](fotos/sockalocpu.jpeg)
+
+### Memoria RAM
+
+![RAM](fotos/Ram.jpeg)
+![RAM 2](fotos/Ram1.jpeg)
+
+### Disco duro
+
+![Disco duro](fotos/disco.jpeg)
+![Disco duro 2](fotos/disco1.jpeg)
+![Disco duro 3](fotos/disco2.jpeg)
+
+### Disipador
+
+![Disipador](fotos/disipador.jpeg)
+![Disipador 2](fotos/disipador2.jpeg)
+
+### Fuente de alimentación
+
+![Fuente](fotos/fuente.jpeg)
+![Fuente 3](fotos/fuente3.jpeg)
+
+
+| Componente | Marca / Modelo | Dato observado |
+|---|---|---|
+| Placa base | Gigabyte GA-H81M-D2V | Modelo identificado |
+| Procesador | Intel Pentium G322 | Modelo anotado |
+| RAM | Kingston | Marca identificada |
+| Almacenamiento | Western Digital (WD) | Marca identificada |
+| Fuente | Power Man | Marca identificada |
+| Disipador / ventilador | Intel | Marca identificada |
+| Tarjetas / otros | No identificado | No se dispone de más datos |
+
+## 5. Conexiones y observaciones · Equipo A
+
+Identificad y marcad las conexiones presentes y comprobadas:
+
+## Fotografías de las conexiones
+
+![Cableado de placa](fotos/cableplaca.jpeg)
+![Cables](fotos/cables.jpeg)
+![Cables de la fuente](fotos/cablesdelafuente.jpeg)
+![Cables de la placa](fotos/cablesdelaplaca.jpeg)
+![Cables del disco](fotos/cablesdeldisco.jpeg)
+![Cables de la fuente 2](fotos/cablesfuentes.jpeg)
+
+
+
+- [X] Alimentación de la placa
+- [X] Alimentación de la CPU
+- [X] Ventilador de la CPU
+- [X] Datos de almacenamiento
+- [X] Alimentación del disco
+- [X] Panel frontal
+
+**¿Hay algún cable suelto, conector dañado o conexión que no sepáis identificar?**
+
+____Se detectó que el panel frontal estaba dañado.----- La parte correspondiente al conector del
+--speaker estaba suelta de los cables del panel frontal.---
+
+**Fotografías de referencia (nombre de archivo o ubicación):**
+
+________________________________________________________________________
+
+No retiréis la CPU ni el disipador sin indicación del profesor. Si se retira el disipador, consultad sobre limpieza y pasta térmica antes de volver a instalarlo.
+
+## 6. Registro del trabajo · Equipo A
+
+Registrad únicamente lo que hayáis hecho; marcad **N/P** si no procede.
+
+## Fotografías del proceso
+
+![Limpieza](fotos/limpiar.jpeg)
+![Limpieza de pasta térmica](fotos/limpiarpastatermica.jpeg)
+![Pasta térmica](fotos/pasta%20termica.jpeg)
+![Placa durante el montaje](fotos/paca.jpeg)
+![Envejecedor](fotos/enveccellador.jpeg)
+
+## Montaje final
+
+![Placa montada](fotos/placamontada.jpeg)
+![Caja montada](fotos/cajamontada.jpeg)
+![Caja con placa y fuente](fotos/cajaplacafuente.jpeg)
+
+ Operación | Hecho | N/P | Foto / observación |
+|---|:---:|:---:|---|
+| Apertura y fotos iniciales | X | | Fotos 1, 7, 8 y 9 |
+| Desconexión y organización de cables | X | | Foto 3 |
+| Desmontaje / montaje de memoria | X | | Fotos 4 y 14 |
+| Revisión / montaje de almacenamiento | X | | Fotos 6, 12 y 13 |
+| CPU y disipador | X | | Fotos 5, 10, 11 y 14 |
+| Tarjetas de expansión | | X | No procede |
+| Reconexión y orden de cables | X | | Fotos 14 y 15 |
+| Cierre y limpieza del puesto | X | | Foto 2 |
+
+## 7. Incidencia o reparación · Equipo A
+
+
+## Fotografías del proceso
+
+![Limpieza](fotos/limpiar.jpeg)
+![Limpieza de pasta térmica](fotos/limpiarpastatermica.jpeg)
+![Pasta térmica](fotos/pasta%20termica.jpeg)
+![Placa durante el montaje](fotos/paca.jpeg)
+![Envejecedor](fotos/enveccellador.jpeg)
+
+## Montaje final
+
+![Placa montada](fotos/placamontada.jpeg)
+![Caja montada](fotos/cajamontada.jpeg)
+![Caja con placa y fuente](fotos/cajaplacafuente.jpeg)
+
+**Problema encontrado / hipótesis** (si no hay, indicadlo):
+
+1. La fuente de alimentación tenía únicamente un tornillo de fijación
+2. El conector del speaker del panel frontal estaba suelto.
+
+**Acción realizada y resultado observado:**
+
+Las incidencias fueron detectadas durante la revisión y quedaron anotadas. 
+No se realizaron reparaciones.
+
+## 8. Comprobación final · Equipo A
+
+## Fotografías del proceso
+
+![Limpieza](fotos/limpiar.jpeg)
+![Limpieza de pasta térmica](fotos/limpiarpastatermica.jpeg)
+![Pasta térmica](fotos/pasta%20termica.jpeg)
+![Placa durante el montaje](fotos/paca.jpeg)
+![Envejecedor](fotos/enveccellador.jpeg)
+
+## Montaje final
+
+![Placa montada](fotos/placamontada.jpeg)
+![Caja montada](fotos/cajamontada.jpeg)
+![Caja con placa y fuente](fotos/cajaplacafuente.jpeg)
+
+- [ ] Piezas sujetas.
+- [X] RAM encajada.
+- [X] Cables revisados.
+- [ ] Sin tornillos sueltos.
+- [X] Ventilador de CPU conectado.
+- [X] Puesto recogido.
+
+**¿Encendido autorizado?** ☐ Sí  ☐ No
+
+**Resultado / motivo:** ___________________________________________________
+
+________________________________________________________________________
+
+Una observación no demuestra por sí sola la causa de una avería.
+
+---
+
+## 9. Identificación y arranque · Equipo B
+
+Utilizad vuestro propio ordenador funcional para los siguientes apartados.
+
+**Equipo:** X-Portátil  ☐ Sobremesa  ☐ Otro: ___________________________
+
+**Linux:** ☐ Instalado directamente  ☐ Máquina virtual X-(wsl)
+
+**Sistema operativo y versión:** _________________Ubuntu 26.04_________________________
+
+**Si es virtual: sistema anfitrión y programa de virtualización:** 
+- sistema anfitrion:Windows 11 home 
+- Entorno:WSL (subsistema de windows para linux)Ubuntu 26.04
+
+**¿Arranca con normalidad? ¿Qué observáis desde el encendido hasta el inicio?**
+
+Ubuntu inicia con normalidad dentro de Windows. Se accede al entorno de Ubuntu y se puede 
+utilizar su terminal.
+
+**¿Qué es el POST y en qué se diferencia de la UEFI y del sistema operativo?**
+
+El POST es una comprobación que realiza el ordenador al encenderse para verificar 
+que los componentes básicos del hardware funcionan correctamente.
+
+La UEFI es el firmware que inicializa el hardware y gestiona el proceso de arranque del ordenador.
+
+El sistema operativo se carga después del proceso de arranque y permite utilizar el ordenador 
+y ejecutar programas.
+
+**¿Habéis accedido a la UEFI o consultado información de ella? ¿Qué dato habéis visto?**
+
+
+Hemos comprobado los siguientes datos:
+- Modo de arranque: UEFI.
+- Secure Boot (Arranque seguro): activado.
+- Orden de arranque: hemos consultado los dispositivos configurados para iniciar el equipo.
+- Información del hardware: hemos revisado los datos que muestra la UEFI sobre los componentes 
+  del ordenador.
+
+
+No cambiéis ajustes de UEFI sin indicación del profesor. Si no podéis acceder, indicadlo.
+
+## 10. Linux: procesador · `lscpu`
+
+Ejecutad `lscpu`. Adjuntad la salida revisada o indicad si el comando falla.
+
+  L2:                        2 MiB (4 instances)
+  L3:                        4 MiB (1 instance)
+NUMA:
+  NUMA node(s):              1
+  NUMA node0 CPU(s):         0-7
+Vulnerabilities:
+  Gather data sampling:      Not affected
+  Ghostwrite:                Not affected
+  Indirect target selection: Not affected
+  Itlb multihit:             Not affected
+  L1tf:                      Not affected
+  Mds:                       Not affected
+  Meltdown:                  Not affected
+  Mmio stale data:           Not affected
+  Old microcode:             Not affected
+  Reg file data sampling:    Not affected
+  Retbleed:                  Mitigation; untrained return thunk; SMT enabled with STIBP protection
+  Spec rstack overflow:      Vulnerable: Safe RET, no microcode
+  Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+  Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not aff
+                             ected; BHI Not affected
+  Srbds:                     Not affected
+  Tsa:                       Not affected
+  Tsx async abort:           Not affected
+  Vmscape:                   Not affected
+```
+
+**Resumen de la información obtenida:**
+
+| Característica | Resultado |
+|---|---|
+| Modelo | AMD Ryzen 5 7520U with Radeon Graphics |
+| Arquitectura | x86_64 |
+| CPU lógicas visibles | 8 |
+| Núcleos por socket | 4 |
+| Hilos por núcleo | 2 |
+| Socket | 1 |
+| Hipervisor | Microsoft |
+| Tipo de virtualización | Completa |
+
+**Modelo / CPU presentada a Linux:** AMD Ryzen 5 7520U with Radeon Graphics.
+
+**Arquitectura:** x86_64 (64 bits).  **CPU lógicas visibles:** 8.
+
+**Modelo / CPU presentada a Linux:** _______________________________________
+
+**Arquitectura:** ____________________  **CPU lógicas visibles:** ______________
+
+**¿Qué diferencia hay entre núcleo e hilo? ¿Qué podéis concluir de la salida?**
+
+Un núcleo es una unidad física del procesador que puede ejecutar instrucciones.
+Un hilo permite gestionar una secuencia de instrucciones dentro de un núcleo.
+
+En nuestro caso aparecen 4 núcleos y 2 hilos por núcleo, por lo que Linux muestra 8 CPU lógicas.
+
+
+**conclusion 
+El sistema reconoce un procesador AMD Ryzen 5 7520U con arquitectura de 64 bits y 
+8 CPU lógicas visibles. Estos son los recursos presentados a Linux dentro del entorno WSL.
+
+## 11. Linux: memoria · `free -h`
+
+Adjuntad las salidas de los comandos. Si alguno falla o no está disponible, anotadlo. Antes de entregarlas, ocultad usuarios, nombres de equipo, números de serie y UUID. En una máquina 
+virtual pueden mostrarse recursos virtuales, no el hardware físico completo.
+
+**free -h**
+               total        used        free      shared  buff/cache   available
+Mem:           7.4Gi       551Mi       6.8Gi       3.5Mi       246Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+
+**Memoria total:** ____________________  **Memoria disponible:** ______________
+
+**¿Qué significa «disponible» y por qué puede diferir de «libre»?**
+
+La memoria libre es la RAM que no se está utilizando en ese momento.
+
+La memoria disponible incluye también parte de la memoria utilizada como caché que puede recuperarse si otros programas la necesitan.
+
+Por eso, la memoria disponible puede ser mayor que la memoria libre.
+
+En nuestro resultado había 6,8 GiB libres y 6,9 GiB disponibles.
+
+**Conclusión:**
+
+Ubuntu dispone de 7,4 GiB de memoria RAM y 2 GiB de memoria de intercambio (SWAP). 
+En el momento de realizar la consulta solamente se estaban utilizando 531 MiB de RAM y 
+no se estaba utilizando memoria SWAP.
+
+
+
+## 12. Linux: almacenamiento · `lsblk`
+
+
+NAME MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda    8:0    0 356.9M  1 disk
+sdb    8:16   0 159.4M  1 disk
+sdc    8:32   0     2G  0 disk [SWAP]
+sdd    8:48   0     1T  0 disk /mnt/wslg/distro
+
+
+**Disco identificado:** ___________________________________________________
+
+**Partición y punto de montaje, si aparecen:** ________________________________
+
+**Explicad la diferencia entre disco, partición y punto de montaje:**
+
+- Disco: dispositivo de almacenamiento donde se guardan los datos.
+- Partición: división lógica de un disco que permite organizar el almacenamiento.
+- Punto de montaje: directorio desde el que se puede acceder al contenido de un dispositivo o sistema de archivos.
+
+**Conclusión:**
+
+El sistema reconoce cuatro dispositivos de bloques. Al trabajar dentro de WSL, estos dispositivos 
+corresponden al entorno que presenta Linux y no necesariamente a discos físicos independientes del 
+portátil.
+
+## 13. Linux: dispositivos · `lspci` y `lsusb`
+
+05e2:00:00.0 System peripheral: Red Hat, Inc. Virtio 1.0 file system (rev 01)
+5582:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 console (rev 01)
+dbd5:00:00.0 3D controller: Microsoft Corporation Basic Render Driver
+
+
+**Dispositivo 1 y función:** ________________________________________________
+Virtio 1.0 file system: dispositivo virtual relacionado con el sistema de archivos.
+**Dispositivo 2 y función:** ________________________________________________
+Virtio 1.0 console: dispositivo virtual relacionado con la consola.
+
+
+**¿Por qué podría no aparecer un componente físico o mostrarse de otra forma en una máquina virtual?**
+
+En un entorno virtualizado, Linux puede mostrar dispositivos virtuales en lugar de los componentes físicos reales del ordenador.
+
+Además, algunos dispositivos físicos pueden no aparecer porque el entorno virtualizado no tiene acceso directo a ellos o no los presenta al sistema.
+
+En nuestro caso aparecen dispositivos Virtio y un controlador 3D de Microsoft. El comando `lsusb` no mostró dispositivos USB.
+
+
+## 14. Duda técnica y uso crítico de IA
+
+Podéis usar una IA de Internet. No compartáis datos personales ni información privada del centro. Sin acceso a IA, resolved la duda con una fuente técnica.
+
+**Herramienta utilizada y fecha:**
+Se utilizó Google para buscar información sobre las marcas de los componentes.
+
+**Pregunta planteada:**
+
+Se realizaron búsquedas para identificar las marcas de los componentes del ordenador.
+
+**Respuesta resumida y afirmación concreta que decidisteis comprobar:**
+
+Las búsquedas permitieron obtener información sobre las marcas de los componentes 
+y ayudar a identificarlos.
+
+
+**Fuente técnica o prueba utilizada y resultado:** confirmada / corregida / no verificada.
+
+Se utilizó Google como herramienta de búsqueda(le pase la foto de los componentes).
+ No se registró una fuente técnica concreta ni una comprobación específica de los datos.
+
+
+
+## 15. Valoración y entrega
+
+**¿Qué paso fue más difícil y cómo lo resolvisteis?**
+
+No hubo ningún paso especialmente difícil. La práctica fue bastante entretenida 
+y pudimos realizar las tareas correctamente.
+
+**¿Qué relación existe entre el montaje y la información de Linux? Recordad que son equipos distintos.**
+
+El montaje físico permite conocer los componentes de un ordenador, mientras que Linux 
+permite consultar información sobre el hardware mediante diferentes comandos.
+
+Aunque en esta práctica hemos utilizado dos ordenadores distintos, ambas partes nos han ayudado a
+ comprender mejor cómo funciona un equipo.
+
+**¿Qué haríais de otra manera en un próximo montaje?**
+
+En un próximo montaje intentaríamos identificar mejor todos los cables y componentes y hacer
+fotografías más detalladas de cada conexión para facilitar el montaje posterior.
+
+Antes de entregar:
+
+- [X] Ficha completa.
+- [X] Fotos identificadas.
+- [X] Salidas de Linux revisadas.
