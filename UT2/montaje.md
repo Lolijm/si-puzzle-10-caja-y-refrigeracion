@@ -136,9 +136,9 @@ Utilizad vuestro propio ordenador funcional para los siguientes apartados.
 
 **Linux:** ☐ Instalado directamente  X Máquina virtual
 
-**Sistema operativo y versión:** El sistema operativo que tengo es ArchLinux y su versión es 7.3.4-arch1-2 64bits
+**Sistema operativo y versión:** El sistema operativo que tengo es Ubuntu y su versión es 26.04
 
-**Si es virtual: sistema anfitrión y programa de virtualización:** Oracle VirtualBox
+**Si es virtual: sistema anfitrión y programa de virtualización:** WSL2
 
 **¿Arranca con normalidad? ¿Qué observáis desde el encendido hasta el inicio?**
 
@@ -154,9 +154,11 @@ Utilizad vuestro propio ordenador funcional para los siguientes apartados.
 
 **¿Habéis accedido a la UEFI o consultado información de ella? ¿Qué dato habéis visto?**
 
-- No he podido acceder a la UEFI de mi máquina virtual, ya que, esta máquina virtual tiene BIOS, en vez de UEFI.
+- No he podido acceder a la UEFI de mi máquina virtual.
 
-- 
+- He entrado desde mi máquina real, que tengo Windows 11 y se ve cómo se llama mi sistema, las versiones, básicamente, información sobre el sistema.
+
+![UEFI](img/uefi.jpeg)
 
 No cambiéis ajustes de UEFI sin indicación del profesor. Si no podéis acceder, indicadlo.
 
@@ -164,96 +166,88 @@ No cambiéis ajustes de UEFI sin indicación del profesor. Si no podéis acceder
 
 Ejecutad `lscpu`. Adjuntad la salida revisada o indicad si el comando falla.
 
-**Modelo / CPU presentada a Linux:** _______________________________________
+**Modelo / CPU presentada a Linux:**  11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz
 
-**Arquitectura:** ____________________  **CPU lógicas visibles:** ______________
+**Arquitectura:** x86_64  **CPU lógicas visibles:** 4 
 
 **¿Qué diferencia hay entre núcleo e hilo? ¿Qué podéis concluir de la salida?**
 
-________________________________________________________________________
+- El núcleo puede ejecutar instrucciones de forma independiente, esto es una unidad física de procesamiento dentro de la CPU, mientras que el hilo, es una unidad lógica de ejecución, es decir que en un núcleo físico se puede gestionar varios hilos simultáneamente.
 
-________________________________________________________________________
+Linux me detecta 4 CPUS lógicas, que están distribuidas en 2 núcleos y 2 hilos por núcleo.
 
 ## 11. Linux: memoria · `free -h`
 
 Adjuntad las salidas de los comandos. Si alguno falla o no está disponible, anotadlo. Antes de entregarlas, ocultad usuarios, nombres de equipo, números de serie y UUID. En una máquina virtual pueden mostrarse recursos virtuales, no el hardware físico completo.
 
-**Memoria total:** ____________________  **Memoria disponible:** ______________
-
+**Memoria total:** 3.7Gi  
+**Memoria disponible:** 3.0Gi
 **¿Qué significa «disponible» y por qué puede diferir de «libre»?**
 
-________________________________________________________________________
+- Disponible significa la RAM que se puede utilizar para ejecutar nuevos programas, mientras que libre significa la RAM que está completamente desocupada y no está siendo utilizada por el sistema.
 
-________________________________________________________________________
+- Se pueden diferir porque Linux utiliza parte de la RAM para almacenar caché con el objetivo de mejorar el rendimiento del sistema.
 
 ## 12. Linux: almacenamiento · `lsblk`
 
-**Disco identificado:** ___________________________________________________
+**Disco identificado:** Se ha identificado cuatro discos: /dev/sda, /dev/sdb, /dev/sdc y /dev/sdd.
 
-**Partición y punto de montaje, si aparecen:** ________________________________
+**Partición y punto de montaje, si aparecen:**
+- /dev/sdc: 1GB, utilizado como memoria SWAP.
+- /dev/sdd: 1TB, montado en / y /mnt/wslg/distro
+- /dev/sda y /dev/sdb: no muestran puntos de montaje
 
 **Explicad la diferencia entre disco, partición y punto de montaje:**
 
-________________________________________________________________________
-
-________________________________________________________________________
+- Disco: Es el dispositivo de almacenamiento donde se guardan los datos.
+- Partición: Es una división lógica de un disco que permite así organizar el almacenamiento.
+- Punto de montaje: Es el directorio del sistema de archivos donde se accede al contenido de una partición.
 
 ## 13. Linux: dispositivos · `lspci` y `lsusb`
 
-**Dispositivo 1 y función:** ________________________________________________
+**Dispositivo 1 y función:** Red Hat, Inc. Virtio 1.0 file system (System peripheral). Es un dispositivo virtual que permite compartir archivos entre el sistema anfitrión (Windows) y la máquina virtual Linux.
 
-**Dispositivo 2 y función:** ________________________________________________
+**Dispositivo 2 y función:** Microsoft Corporation Basic Render Driver (3D controller). Es una tarjeta gráfica virtual: la VM no accede a la GPU física, sino que usa este adaptador que le presenta el hipervisor para gráficos 3D/aceleración. 
 
 **¿Por qué podría no aparecer un componente físico o mostrarse de otra forma en una máquina virtual?**
 
-________________________________________________________________________
-
-________________________________________________________________________
+- Porque en una máquina virtual el hipervisor no entrega el hardware real, sino dispositivos emulados. Por eso componentes físicos como el chipset de la placa base, la tarjeta gráfica real o los puertos USB pueden no aparecer, o salir con otro nombre (por ejemplo, la GPU como "Basic Render Driver"). Además, el anfitrión decide qué dispositivos se exponen al invitado.
 
 ## 14. Duda técnica y uso crítico de IA
 
 Podéis usar una IA de Internet. No compartáis datos personales ni información privada del centro. Sin acceso a IA, resolved la duda con una fuente técnica.
 
-**Herramienta utilizada y fecha:** __________________________________________
+**Herramienta utilizada y fecha:** Claude y ChatGPT / 20/11/2026
 
 **Pregunta planteada:**
 
-________________________________________________________________________
+- En mi Ubuntu (máquina virtual/WSL), lsusb no muestra ningún dispositivo, aunque tengo ratón y teclado USB conectados al equipo anfitrión. ¿Por qué ocurre y cómo podría hacer que aparezcan?
 
 **Respuesta resumida y afirmación concreta que decidisteis comprobar:**
 
-________________________________________________________________________
-
-________________________________________________________________________
+- La IA explicó que la VM no tiene acceso directo a los puertos USB del anfitrión, porque el hipervisor solo le presenta dispositivos virtuales. Para ver un USB hay que redirigirlo expresamente.
 
 **Fuente técnica o prueba utilizada y resultado:** confirmada / corregida / no verificada.
 
-________________________________________________________________________
-
-________________________________________________________________________
+- Ejecuté lsusb y vi que no devolvía nada, así que consulte por internet lo que debería mostrar una lista de todos los buses USB y los dispositivos conectados a ellos.
 
 ## 15. Valoración y entrega
 
 **¿Qué paso fue más difícil y cómo lo resolvisteis?**
 
-________________________________________________________________________
-
-________________________________________________________________________
+- Fue a la hora de utilizar el comando lscpu, ya que tuve que buscarlo correctamente, y los comandos lspci y lsusb porque había que instalar algo aparte y con el lsusb porque no me mostraba nada.
 
 **¿Qué relación existe entre el montaje y la información de Linux? Recordad que son equipos distintos.**
 
-________________________________________________________________________
+- El montaje se hizo sobre un portátil físico, mientras que la información de Linux sale por una máquina virtual.
 
-________________________________________________________________________
 
 **¿Qué haríais de otra manera en un próximo montaje?**
 
-________________________________________________________________________
-
-________________________________________________________________________
+- A la próxima que haría un montaje sería comprobar si todos los componentes son compatibles entre ellos y que funcionará correctamente. Aparte preparar el sitio de trabajo, haría fotos a los cables del panel frontal y también de las demás conexiones. Por último lo que haría sería antes de cerrar el equipo encenderlo y comprobar que funcione el equipo correctamente, ya si funcionase bien lo cerraría y ya estaría preparado para funcionar.
 
 Antes de entregar:
 
-- [ ] Ficha completa.
-- [ ] Fotos identificadas.
-- [ ] Salidas de Linux revisadas.
+- [X] Ficha completa.
+- [X] Fotos identificadas.
+- [X] Salidas de Linux revisadas.
