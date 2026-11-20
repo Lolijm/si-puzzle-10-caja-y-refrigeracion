@@ -134,29 +134,29 @@ Utilizad vuestro propio ordenador funcional para los siguientes apartados.
 
 **Equipo:** X Portátil  ☐ Sobremesa  ☐ Otro: ___________________________
 
-**Linux:** ☐ Instalado directamente  ☐ Máquina virtual
+**Linux:** ☐ Instalado directamente  X Máquina virtual
 
-**Sistema operativo y versión:** __________________________________________
+**Sistema operativo y versión:** El sistema operativo que tengo es ArchLinux y su versión es 7.3.4-arch1-2 64bits
 
-**Si es virtual: sistema anfitrión y programa de virtualización:** ______________
+**Si es virtual: sistema anfitrión y programa de virtualización:** Oracle VirtualBox
 
 **¿Arranca con normalidad? ¿Qué observáis desde el encendido hasta el inicio?**
 
-________________________________________________________________________
+- Sí arranca con normalidad, aunque tarde en arrancar por la RAM asignada. 
 
-________________________________________________________________________
+- Lo que se observa desde el encendido hasta el inicio es como empieza a cargar el sistema operativo, también al principio me pregunta por si tuviese otra partición el que quiero elegir.
 
 **¿Qué es el POST y en qué se diferencia de la UEFI y del sistema operativo?**
 
-________________________________________________________________________
+- El POST es un proceso que hace un diagnóstico rápido que lo ejecuta el ordenador nada más que se pulsa el botón de encendido para así comprar que los componentes funcionen correctamente y así que empiece a funcionar.
 
-________________________________________________________________________
+- La diferencia del POST entre la UEFI y el sistema operativo, es que, el POST es como una tarea, verifica que todo del hardware funcione correctamente, mientras tanto, la UEFI, lo que hace es iniciar el hardware y gestionar sus configuraciones básicas y lanzar el cargador del sistemas, y por último, el sistema operativo, que es el software principal, lo que hace es gestionar los recursos del equipo, ofrecer una interfaz visual y ejecutar aplicaciones.
 
 **¿Habéis accedido a la UEFI o consultado información de ella? ¿Qué dato habéis visto?**
 
-________________________________________________________________________
+- No he podido acceder a la UEFI de mi máquina virtual, ya que, esta máquina virtual tiene BIOS, en vez de UEFI.
 
-________________________________________________________________________
+- 
 
 No cambiéis ajustes de UEFI sin indicación del profesor. Si no podéis acceder, indicadlo.
 
