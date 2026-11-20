@@ -30,7 +30,7 @@
 
 - Si hay mal contacto, poco flujo o poca salida de aire, eso decidirá la temperatura de todo.
 
-![Imagen sobre el flujo de aire](../img/liquida.jpeg)
+![Imagen sobre el flujo de aire](../img/aire.jpeg)
 
 | Tipo | Ventaja | Inconveniente |
 |---|---|---|
