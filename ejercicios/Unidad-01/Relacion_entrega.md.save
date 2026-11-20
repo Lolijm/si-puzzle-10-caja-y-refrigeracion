@@ -1,0 +1,87 @@
+# Relacion de Ejercicios De Binario Y De Puerta Logicas
+
+> @autor: Sheila mm
+
+## Relacion 20
+
+### Ejercicio1 
+
+- Apartado A Solucion 117,4(10)               101010,101(2) poner la base en la que esta
+- Apartado B solucion 225,375(10)
+
+
+- ![Descripcion de la imagem ] (/images/picture.jpg)
+
+
+###Ejercicio2
+
+- Apartado A Solucion binario--100010011011(2) octal--211,54(8) hexadecimal--89b(16)
+- Apartado B  Solucion 27,1 010111,001 no es exacto 
+
+###Ejercicio3
+- Apartado A solucion 4516,44(8)
+- Apartado b solucion 56b,2(16)
+
+###Ejercicio4
+- Apartado A solucion 1100101,101
+- Apartado B solucion 011011,011
+
+
+###Ejercicio5
+
+- Apartado A solucion 11011100
+- Apartado B solucion 00010111 = 23(10)
+- Apartado C solucion 01001000
+- Apartado D solucion 0010111
+
+###Ejercicio6
+
+- 0011,0100
+
+###Ejercicio7
+
+- Apartado A solucion 1000010
+- Apartado B solucion 100110,01
+- Apartado C solucion desplazando 2 0110010100 desplazando 3 00001100
+
+###Ejercicio8
+
+- CABEN 5,1444 IMAGENES EN 32GB0
+
+###Ejercicio 9
+|A  B  C|XOR|NOR|S|
+--------------------
+|0  0  0|0|1|1|
+|0  0  1|0|0|0|
+|0  1  0|1|0|1|
+|0  1  1|1|0|1|
+|1  0  0|1|1|1|
+|1  0  1|0|0|1|
+|1  1  0|0|0|0|
+|1  1  1|0|0|0|
+---------------------
+
+
+###Ejercicio10
+
+|A B C |S|
+-----------
+|0 0 0 |1|
+|0 0 1 |1|
+|0 1 0 |0|
+|0 1 1 |1|
+|1 0 0 |0|
+|1 0 1 |1|
+|1 1 0 |1|
+|1 1 1 |0|
+-----------
+
+|A /BC|00  01  11 10|
+----------------------
+|0   | 1  1  1  0 |
+|1    | 0  1  0  1 |
+-------------------
+
+
+
+## Fecha: 5-octubre-26
