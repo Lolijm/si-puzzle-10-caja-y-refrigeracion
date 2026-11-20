@@ -56,7 +56,7 @@ Anotad lo que podáis verificar. Si no se distingue, escribid «no identificado�
 | Almacenamiento | Western Digital (wb) | |
 | Fuente | Power man | |
 | Disipador / ventilador | Intel | |
-| Tarjetas / otros | <<No identificado>>| |
+| Tarjetas / otros | No identificado | |
 
 ## 5. Conexiones y observaciones · Equipo A
 
@@ -99,9 +99,7 @@ Registrad únicamente lo que hayáis hecho; marcad **N/P** si no procede.
 
 **Problema encontrado / hipótesis** (si no hay, indicadlo):
 
-________________________________________________________________________
-
-________________________________________________________________________
+- No hemos encontrado ningún error.
 
 **Acción realizada y resultado observado:**
 
@@ -134,7 +132,7 @@ Una observación no demuestra por sí sola la causa de una avería.
 
 Utilizad vuestro propio ordenador funcional para los siguientes apartados.
 
-**Equipo:** ☐ Portátil  ☐ Sobremesa  ☐ Otro: ___________________________
+**Equipo:** X Portátil  ☐ Sobremesa  ☐ Otro: ___________________________
 
 **Linux:** ☐ Instalado directamente  ☐ Máquina virtual
 
