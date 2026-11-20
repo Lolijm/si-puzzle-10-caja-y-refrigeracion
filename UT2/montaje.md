@@ -50,30 +50,28 @@ Anotad lo que podáis verificar. Si no se distingue, escribid «no identificado�
 
 | Componente | Marca / modelo | Dato observado |
 |---|---|---|
-| Placa base | | |
-| Procesador | | |
-| RAM | | |
-| Almacenamiento | | |
-| Fuente | | |
-| Disipador / ventilador | | |
-| Tarjetas / otros | | |
+| Placa base | GA-H81m-Dev | |
+| Procesador | Intel pentium | |
+| RAM | Kingston | |
+| Almacenamiento | Western Digital (wb) | |
+| Fuente | Power man | |
+| Disipador / ventilador | Intel | |
+| Tarjetas / otros | <<No identificado>>| |
 
 ## 5. Conexiones y observaciones · Equipo A
 
 Identificad y marcad las conexiones presentes y comprobadas:
 
-- [ ] Alimentación de la placa
-- [ ] Alimentación de la CPU
-- [ ] Ventilador de la CPU
-- [ ] Datos de almacenamiento
-- [ ] Alimentación del disco
-- [ ] Panel frontal
+- [X] Alimentación de la placa
+- [X] Alimentación de la CPU
+- [X] Ventilador de la CPU
+- [X] Datos de almacenamiento
+- [X] Alimentación del disco
+- [X] Panel frontal
 
 **¿Hay algún cable suelto, conector dañado o conexión que no sepáis identificar?**
 
-________________________________________________________________________
-
-________________________________________________________________________
+- Lo único de cable suelto que hubo, era un cable que iba en el panel frontal, el SPEAKER, pero ya había uno colocado. Además habían algún que otro cable que no estaba conectado, ya que era adicional, por si habían más componentes de más.
 
 **Fotografías de referencia (nombre de archivo o ubicación):**
 
@@ -114,12 +112,12 @@ ________________________________________________________________________
 
 ## 8. Comprobación final · Equipo A
 
-- [ ] Piezas sujetas.
-- [ ] RAM encajada.
-- [ ] Cables revisados.
-- [ ] Sin tornillos sueltos.
-- [ ] Ventilador de CPU conectado.
-- [ ] Puesto recogido.
+- [X] Piezas sujetas.
+- [X] RAM encajada.
+- [X] Cables revisados.
+- [X] Sin tornillos sueltos.
+- [X] Ventilador de CPU conectado.
+- [X] Puesto recogido.
 
 **¿Encendido autorizado?** ☐ Sí  ☐ No
 
