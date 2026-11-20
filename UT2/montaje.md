@@ -85,14 +85,15 @@ Registrad únicamente lo que hayáis hecho; marcad **N/P** si no procede.
 
 | Operación | Hecho | N/P | Foto / observaciones |
 |---|:---:|:---:|---|
-| Apertura y fotos iniciales | ☐ | ☐ | |
-| Desconexión y organización de cables | ☐ | ☐ | |
-| Desmontaje / montaje de memoria | ☐ | ☐ | |
-| Revisión / montaje de almacenamiento | ☐ | ☐ | |
-| CPU y disipador, si se autoriza | ☐ | ☐ | |
-| Tarjetas de expansión | ☐ | ☐ | |
-| Reconexión y orden de cables | ☐ | ☐ | |
-| Cierre y limpieza del puesto | ☐ | ☐ | |
+| Apertura y fotos iniciales | X | ☐ | ![Caja por fuera](img/47.jpeg) ![Caja abierta](img/9.jpeg) - Primero le quitamos los tornillos a la caja, al intentar abrirlo costo un poco |
+| Desconexión y organización de cables | X | ☐ | ![Cables desconectados](img/34.jpeg) - Quitamos los cables y empezamos a quitar la placa base de la caja |
+| Desmontaje / montaje de memoria | X | ☐ | ![RAM sacada](img/32.jpeg) - Para quitar la RAM, le damos a las pestañas y las sacamos|
+| Revisión / montaje de almacenamiento | X | ☐ | ![Almacenamiento quitado](img/20.jpeg) ![Almacenamiento puesto](img/13.jpeg) - Quitamos el almacenamiento quitando sus tornillos que lo sujetaban |
+| CPU y disipador, si se autoriza | X | ☐ | ![Disipador quitado](img/29.jpeg) ![Limpiando disipador](img/28.jpeg) ![CPU limpio](img/27.jpeg) - Quitamos el disipador, moviendo las pestañas, y limpiamos con alcohol isopropílico la pasta térmica del disipador y de la CPU |
+| Tarjetas de expansión | ☐ | X | |
+| Reconexión y orden de cables | X | ☐ | ![Conexión de cables](img/43.jpeg) - Volvemos a poner la placa base y organizamos como anteriormente estaban puestas conectadas en la placa base |
+| Cierre y limpieza del puesto | X | ☐ | ![Caja cerrada](img/48.jpeg) - Ya cerramos la caja y ponemos las herramientas en la caja de herramientas |
+
 
 ## 7. Incidencia o reparación · Equipo A
 
