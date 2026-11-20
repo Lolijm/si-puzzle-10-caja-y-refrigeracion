@@ -2,12 +2,12 @@
 
 ## 1. Orden de trabajo
 
-**Fecha:** ____________________  **Puesto:** ____________________  **Equipo / etiqueta:** ____________________
+**Fecha:** 09/11/2026  **Puesto:** ____________________  **Equipo / etiqueta:** ____________________
 
 **Integrantes del grupo (2 o 3):**
 
-1. Nombre y apellidos: ______________________________________________
-2. Nombre y apellidos: ______________________________________________
+1. Nombre y apellidos: Sheila Muñoz Matías
+2. Nombre y apellidos: Loli Joya Martín
 3. Nombre y apellidos (si procede): __________________________________
 
 > **Equipo A:** ordenador de prácticas utilizado para el montaje o la revisión. Puede estar averiado; no se exige que arranque.
@@ -18,31 +18,29 @@
 
 **Trabajo previsto:**
 
-- [ ] Desmontaje y montaje
-- [ ] Revisión / diagnóstico
+- [X] Desmontaje y montaje
+- [X] Revisión / diagnóstico
 - [ ] Otro: ___________________________________
 
 **Estado al recibirlo:**
 
 - [ ] Completo
-- [ ] Faltan piezas
+- [X] Faltan piezas
 - [ ] Sucio
 - [ ] Daños visibles
 
 **Síntomas conocidos, piezas ausentes o daños observados:**
 
-________________________________________________________________________
-
-________________________________________________________________________
+- Al ordenador de prácticas le faltaba el embellecedor, y tenía dentro de la caja un cable del panel frontal (SPEAKER) suelto, y ya teniendo colocado el SPEAKER en el panel frontal, es decir, había uno que sobraba dentro. Además en la parte de fuera de la caja, donde se encuentra la fuente de alimentación, le faltaban tornillos, tenía solamente 1 tornillo que lo sujetaba.
 
 ## 3. Seguridad y preparación · Equipo A
 
-- [ ] Equipo desconectado de la corriente y de los periféricos.
+- [X] Equipo desconectado de la corriente y de los periféricos.
 - [ ] Botón de encendido pulsado tras desconectar.
-- [ ] Superficie despejada y piezas organizadas.
-- [ ] Estado inicial y conexiones fotografiados.
+- [X] Superficie despejada y piezas organizadas.
+- [X] Estado inicial y conexiones fotografiados.
 
-**Herramientas utilizadas:** _______________________________________________
+**Herramientas utilizadas:** Las herramientas utilizadas para desmontar el ordenador y montarlo vuelta han sido: Destornillador de estrella y el plano (para quitarle los tornillos), brocha (para quitarle el polvo), pasta térmica (para añadirla entre la CPU y el disipador para que no haya mala conducción de calor), y el alcohol isopropílico (para limpiar la anterior pasta térmica que tenía la CPU).
 
 **No abráis la fuente ni forcéis piezas.** Ante daños o baterías, avisad al profesor.
 
