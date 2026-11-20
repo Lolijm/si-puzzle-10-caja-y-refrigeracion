@@ -54,4 +54,49 @@
 
 ## Tipo test
 
+1. ¿Para qué sirve la pasta térmica entre la CPU y el disipador?
 
+    - A) Para pegar el disipador a la CPU 
+    - B) Para aislar la CPU del calor
+    - C) Para rellenar los huecos microscópicos y mejorar el paso del calor <- **Correcta**
+    - D) Para enfriar el aire que entra en la caja
+
+    - **Explicación:** Las superficies metálicas parecen lisas pero tienen huecos diminutos con aire, lo que hace una mala conducción del calor. La pasta lo que hace es rellenarlos, no pega ni aisla.
+
+2. ¿Qué parámetro es el más importante al elegir un ventilador para un radiador?
+
+    - A) El color de la iluminación
+    - B) La presión estática <- **Correcta**
+    - C) Solo las RPM máximas
+    - D) El número de cables
+
+    - **Explicación:** El radiador tiene aletas muy juntas y ofrece mucha resistencia. Hace falta un ventilador que empuja aire con fuerza, la presión estática, no solo que mueva aire al aire libre.
+
+3. La CPU llega a 90ºC pocos segundos después de encender. ¿Cuál es la causa más probable?
+
+    - A) Poco flujo de aire en la caja
+    - B) Mal contacto entre la CPU y el disipador o la placa fría <- **Correcta**
+    - C) Polvo acumulado durante años
+    - D) Un ventilador de la caja demasiado silencioso
+
+    - **Explicación:** Una subida tan rápida indica que el calor no pasa de la CPU al metal. El poco flujo de aire provoca una temperatura alta pero estable, y el polvo tarda en acumularse.
+
+4. ¿Qué significa tener presión positiva en la caja?
+
+    - A) Que sale menos aire del que entra, y entra más polvo
+    - B) Que entra más aire del que sale, y entra más polvo
+    - C) Que la caja está sellada
+    - D) Que entra más aire del que sale, y entra menos polvo <- **Correcta**
+
+    - **Explicación:** Con presión positiva el aire se escapa por las rendijas y no entra por ellas, así que entra menos polvo. La presión negativa es lo contrario.
+
+5. ¿Qué error se comete al conectar la bomba de una AIO a un conector regulado por temperatura?
+
+    - A) Que la bomba puede bajar de velocidad y el líquido no circula bien <- **Correcta**
+    - B) Que la CPU no arranca
+    - C) Que la RAM no se detecta
+    - D) Que el radiador cambia de tamaño
+
+    - **Explicación:** La bomba debe girar siempre para mover el líquido. Si la placa la frena porque hace poco calor, el calor no se transporta cuando hace falta.
+
+## Uso de IA
